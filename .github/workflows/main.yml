@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: .NET 5 Application
+    name: .NET 6 Application
     steps:
       - uses: actions/checkout@v2
       - name: Setup dotnet
@@ -74,7 +74,7 @@ jobs:
           dotnet tool update dotnet-sonarscanner --tool-path ..sonar\scanner
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
