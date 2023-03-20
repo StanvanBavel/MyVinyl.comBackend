@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyVinyl.com_identity_service.props" />
+</Project>

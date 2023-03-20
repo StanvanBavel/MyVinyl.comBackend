@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wzo62mEnnYu5rbkv6G9BL7MpMXbNLkLKJ5a9adWdxaA=",
+  "Source": "MyVinyl.com_ocelot_apigateway",
+  "BasePath": "_content/MyVinyl.com_ocelot_apigateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

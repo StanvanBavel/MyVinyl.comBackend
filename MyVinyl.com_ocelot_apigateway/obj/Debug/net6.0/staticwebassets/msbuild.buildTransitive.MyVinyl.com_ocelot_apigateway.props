@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyVinyl.com_ocelot_apigateway.props" />
+</Project>
