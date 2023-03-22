@@ -666,11 +666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com\\MyVinyl.com.csproj",
+      "projectUniqueName": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com\\MyVinyl.com.csproj",
       "projectName": "MyVinyl.com",
-      "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com\\MyVinyl.com.csproj",
+      "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com\\MyVinyl.com.csproj",
       "packagesPath": "C:\\Users\\stanv\\.nuget\\packages\\",
-      "outputPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com\\obj\\",
+      "outputPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stanv\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj": {}
+    "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj": {}
   },
   "projects": {
-    "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj": {
+    "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
+        "projectUniqueName": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
         "projectName": "MyVinyl.com_identity_service",
-        "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
+        "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
         "packagesPath": "C:\\Users\\stanv\\.nuget\\packages\\",
-        "outputPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_identity_service\\obj\\",
+        "outputPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stanv\\AppData\\Roaming\\NuGet\\NuGet.Config",

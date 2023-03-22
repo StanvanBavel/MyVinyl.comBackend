@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vegI8uV55ICta+k4SbUhvP72Omda81xf4YJo535OMVWCTtN7MeW0Amc3GApjqlqyhFyC90tmZqgEY4b7v+Nb7Q==",
+  "dgSpecHash": "AS2+/++7pMwXBpeLb6woXYvhVA/NpdxbtPdY5svdl1EnWEDNylTkKaNIhWAwa+z/Kgtv1WlHHeZFtsedowfFiA==",
   "success": true,
-  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_ocelot_apigateway\\MyVinyl.com_ocelot_apigateway.csproj",
+  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_ocelot_apigateway\\MyVinyl.com_ocelot_apigateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanv\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",

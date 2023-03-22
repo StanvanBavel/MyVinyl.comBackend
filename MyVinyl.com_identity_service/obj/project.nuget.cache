@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9U5T7XP0SWdJPAS90MuYNVom9le0w34hor5DrqYg2ra1iG8/XcJutt7FWVcQmebvS5wOSIUXXR1UJYp0r5OVYw==",
+  "dgSpecHash": "kJrgy86dlK7GUVyC0102Wfuztk8yZYT/+q01thQaVyPr0irL/I4ms7XXD2pf9YOj21Ord46DNV7/4UwDbV4hLw==",
   "success": true,
-  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.com\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
+  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanv\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
