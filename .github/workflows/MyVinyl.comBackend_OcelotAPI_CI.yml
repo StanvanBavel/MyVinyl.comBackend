@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 'MyVinyl.comBackend'
+        working-directory: 'MyVinyl.com_ocelot_apigateway'
     steps:
       -
         name: Set up QEMU
