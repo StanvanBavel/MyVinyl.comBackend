@@ -1,4 +1,4 @@
-name: MyVinyl.com OcelotAPI
+name: MyVinyl.com Build and SonarCloud
 on: [push]
 
 jobs:
