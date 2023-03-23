@@ -38,6 +38,6 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          file: ./MyVinyl.comBackend/MyVinyl.com_ocelot_apigateway/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: stanvb/myvinyl.com_ocelot_apigateway:latest
