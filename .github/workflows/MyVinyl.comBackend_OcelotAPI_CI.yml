@@ -11,8 +11,8 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
-      - run: dotnet build
-      - run: dotnet test
+      - run: dotnet build MyVinyl.com_ocelot_apigateway
+      - run: dotnet test MyVinyl.com_ocelot_apigateway
 
 
   docker:
@@ -38,6 +38,6 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          file: ./MyVInyl.comBackend/MyVinyl.com_ocelot_apigateway/Dockerfile
+          file: ./MyVinyl.comBackend/MyVinyl.com_ocelot_apigateway/Dockerfile
           push: true
           tags: stanvb/myvinyl.com_ocelot_apigateway:latest
