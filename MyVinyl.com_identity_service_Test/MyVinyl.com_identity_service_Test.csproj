@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyVinyl.com_identity_service\MyVinyl.com_identity_service.csproj" />
+  </ItemGroup>
+
 </Project>
