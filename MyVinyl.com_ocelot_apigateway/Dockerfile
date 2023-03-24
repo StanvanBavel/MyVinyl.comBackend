@@ -17,4 +17,4 @@ RUN dotnet publish "MyVinyl.com_ocelot_apigateway.csproj" -c Release -o /app/pub
 FROM base AS final
 WORKDIR /app
 COPY --from= publish / app / publish.
-ENTRYPOINT["dotnet", "MyVinyl.com_ocelot_apigateway.dll"]
+ENTRYPOINT ["dotnet", "MyVinyl.com_ocelot_apigateway.dll"]
