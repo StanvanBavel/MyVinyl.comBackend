@@ -4,7 +4,7 @@ EXPOSE 5001
 EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src/MyVinyl.com_ocelot_apigateway
+WORKDIR "/src/MyVinyl.com_ocelot_apigateway"
 COPY ["MyVinyl.com_ocelot_apigateway.csproj", "MyVinyl.com_ocelot_apigateway/"]
 RUN dotnet restore "MyVinyl.com_ocelot_apigateway/MyVinyl.com_ocelot_apigateway.csproj"
 COPY . .
