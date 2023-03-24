@@ -1,0 +1,43 @@
+name: MyVinyl.com VinylService
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: .NET 6 Application
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
+      - run: dotnet build MyVinyl.com
+      - run: dotnet test MyVinyl.com
+
+
+  Docker:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'MyVinyl.com'
+    steps:
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      -
+        name: Login to DockerHub
+        uses: docker/login-action@v1 
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      -
+        name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          file: ./MyVinyl.com/Dockerfile
+          push: true
+          tags: stanvb/myvinyl.com_vinyl_service:latest
