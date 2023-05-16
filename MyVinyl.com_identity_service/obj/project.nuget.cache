@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kJrgy86dlK7GUVyC0102Wfuztk8yZYT/+q01thQaVyPr0irL/I4ms7XXD2pf9YOj21Ord46DNV7/4UwDbV4hLw==",
+  "dgSpecHash": "e69SKPkz1R3V0WFcuCFHXFReENeDkCIywqE6cC/8mbiTy6AliN/v6vISgrUchEFgjsxlIi9yPw9HsHO05ReUDg==",
   "success": true,
   "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\stanv\\.nuget\\packages\\easynetq\\7.5.0\\easynetq.7.5.0.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\6.0.1\\microsoft.aspnetcore.middlewareanalysis.6.0.1.nupkg.sha512",
@@ -16,11 +17,14 @@
     "C:\\Users\\stanv\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\ocelot\\18.0.0\\ocelot.18.0.0.nupkg.sha512",
+    "C:\\Users\\stanv\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\stanv\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\stanv\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\stanv\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\stanv\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

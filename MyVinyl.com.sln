@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_ocelot_apigatew
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_identity_service", "MyVinyl.com_identity_service\MyVinyl.com_identity_service.csproj", "{493238EF-DEED-4BEF-9C5E-2C1CAD3925F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVinyl.com_identity_service_Test", "MyVinyl.com_identity_service_Test\MyVinyl.com_identity_service_Test.csproj", "{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_identity_service_Test", "MyVinyl.com_identity_service_Test\MyVinyl.com_identity_service_Test.csproj", "{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVinyl.com_rabbitmq", "MyVinyl.com_rabbitmq\MyVinyl.com_rabbitmq.csproj", "{74D9E925-1696-4D4D-B76F-43A4E7081B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
