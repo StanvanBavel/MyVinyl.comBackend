@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: .NET 6 Application
+    name: .NET 6 Application build and test
     steps:
       - uses: actions/checkout@v2
       - name: Setup dotnet
@@ -44,7 +44,7 @@ jobs:
           
   Sonarcloud:
  
-    name: Build and analyze
+    name: Sonarcloud Build and analyze
     runs-on: windows-latest
     steps:
       - name: Set up JDK 11
