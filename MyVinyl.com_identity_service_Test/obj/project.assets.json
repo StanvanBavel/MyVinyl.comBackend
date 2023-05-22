@@ -1991,7 +1991,7 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "MyVinyl.com_identity_service/1.0.0": {
+      "MyVinyl.com_authentication_service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2000,10 +2000,10 @@
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
-          "bin/placeholder/MyVinyl.com_identity_service.dll": {}
+          "bin/placeholder/MyVinyl.com_authentication_service.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MyVinyl.com_identity_service.dll": {}
+          "bin/placeholder/MyVinyl.com_authentication_service.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -6530,16 +6530,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "MyVinyl.com_identity_service/1.0.0": {
+    "MyVinyl.com_authentication_service/1.0.0": {
       "type": "project",
-      "path": "../MyVinyl.com_identity_service/MyVinyl.com_identity_service.csproj",
-      "msbuildProject": "../MyVinyl.com_identity_service/MyVinyl.com_identity_service.csproj"
+      "path": "../MyVinyl.com_identity_service/MyVinyl.com_authentication_service.csproj",
+      "msbuildProject": "../MyVinyl.com_identity_service/MyVinyl.com_authentication_service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
-      "MyVinyl.com_identity_service >= 1.0.0",
+      "MyVinyl.com_authentication_service >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -6551,9 +6551,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\MyVinyl.com_identity_service_Test.csproj",
-      "projectName": "MyVinyl.com_identity_service_Test",
-      "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\MyVinyl.com_identity_service_Test.csproj",
+      "projectUniqueName": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\MyVinyl.com_authentication_service_Test.csproj",
+      "projectName": "MyVinyl.com_authentication_service_Test",
+      "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\MyVinyl.com_authentication_service_Test.csproj",
       "packagesPath": "C:\\Users\\stanv\\.nuget\\packages\\",
       "outputPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -6572,8 +6572,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj": {
-              "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj"
+            "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_authentication_service.csproj": {
+              "projectPath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_authentication_service.csproj"
             }
           }
         }

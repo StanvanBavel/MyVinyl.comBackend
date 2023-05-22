@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZvfEcMQvsph7ZrWGonnYYqQTSwX+QNQVIAE1C9bwa2D2lSc48vfmkF8HCO1X+Nvj2Vjws0E9pwBwy/lYizgRg==",
+  "dgSpecHash": "KWqEnveCXB3ff7BDgWzIIlWqAlczw9/lr+s6XnYGeGIxoFDSRdh7mFCOYmuwpQ82Go891rvj5Xlb2s4slC6H/Q==",
   "success": true,
-  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\MyVinyl.com_identity_service_Test.csproj",
+  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service_Test\\MyVinyl.com_authentication_service_Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanv\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\easynetq\\7.5.0\\easynetq.7.5.0.nupkg.sha512",

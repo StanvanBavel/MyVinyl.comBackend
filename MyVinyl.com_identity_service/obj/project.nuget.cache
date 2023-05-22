@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e69SKPkz1R3V0WFcuCFHXFReENeDkCIywqE6cC/8mbiTy6AliN/v6vISgrUchEFgjsxlIi9yPw9HsHO05ReUDg==",
+  "dgSpecHash": "z1D+HQTrC+N+ghD+hE//ZY2uen+fnmIwMM50DH3u6JSZeQDZqcLgKs5VH68RajbkStGGFC6hu3IGlB7MP3Oa5A==",
   "success": true,
-  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_identity_service.csproj",
+  "projectFilePath": "D:\\HBO-ICT Semester 6\\Individueel\\MyVinyl.comBackend\\MyVinyl.com_identity_service\\MyVinyl.com_authentication_service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanv\\.nuget\\packages\\easynetq\\7.5.0\\easynetq.7.5.0.nupkg.sha512",
     "C:\\Users\\stanv\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
