@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 IConfiguration configuration = new ConfigurationBuilder()
                             .AddJsonFile("ocelot.Development.json")
+
                             .Build();
 
 // Add services to the container.
@@ -19,7 +20,7 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
+{   
     app.UseSwagger();
     app.UseSwaggerUI();
 }

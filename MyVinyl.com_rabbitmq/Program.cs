@@ -15,7 +15,8 @@ internal class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
-        string rabbitmqConnectionString = "host=host.docker.internal;username=guest;password=guest;timeout=60";
+        //string rabbitmqConnectionString = "host=host.docker.internal;username=guest;password=guest;timeout=60";
+        string rabbitmqConnectionString = "amqps://scmfmnuz:nrW9VIS6EJPDZ5WhCYrKa8peXXXbm-Lv@goose.rmq2.cloudamqp.com/scmfmnuz";
 
         var bus = RabbitHutch.CreateBus(rabbitmqConnectionString);
         builder.Services.AddSingleton(bus);
