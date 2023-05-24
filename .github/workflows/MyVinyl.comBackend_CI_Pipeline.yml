@@ -100,7 +100,7 @@ jobs:
             with:
                 file: ./MyVinyl.com_ocelot_apigateway/Dockerfile
                 push: true
-                tags: stanvb/MyVinyl.com_ocelot_apigateway:latest
+                tags: stanvb/myvinyl.com_ocelot_apigateway:latest
           
           
     Docker_VinylService:
