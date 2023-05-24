@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_identity_servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_identity_service_Test", "MyVinyl.com_identity_service_Test\MyVinyl.com_identity_service_Test.csproj", "{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVinyl.com_rabbitmq", "MyVinyl.com_rabbitmq\MyVinyl.com_rabbitmq.csproj", "{74D9E925-1696-4D4D-B76F-43A4E7081B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_rabbitmq", "MyVinyl.com_rabbitmq\MyVinyl.com_rabbitmq.csproj", "{74D9E925-1696-4D4D-B76F-43A4E7081B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_collection_service", "MyVinyl.com_collection_service\MyVinyl.com_collection_service.csproj", "{54C6B492-1F5F-4E59-8DA6-CCF0EA5E1896}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_authentication_service", "MyVinyl.com_authentication_service\MyVinyl.com_authentication_service.csproj", "{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C6B492-1F5F-4E59-8DA6-CCF0EA5E1896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C6B492-1F5F-4E59-8DA6-CCF0EA5E1896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C6B492-1F5F-4E59-8DA6-CCF0EA5E1896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C6B492-1F5F-4E59-8DA6-CCF0EA5E1896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,14 +15,17 @@ namespace MyVinyl.com.Controllers
 public class VinylController : Controller
 {
     private readonly IVinylService _service;
+    
 
     public VinylController(IVinylService service)
     {
         _service = service;
-            
+        
+
     }
 
-    [HttpPost]
+
+        [HttpPost]
     public async Task<ActionResult<VinylResponse>> AddVinyl(VinylRequest request)
     {
         try
@@ -40,42 +43,7 @@ public class VinylController : Controller
     {
         return Ok(await _service.GetAllAsync());
 
-            //Vinyl vinyl = new Vinyl();
-            //vinyl id = Guid.NewGuid().ToString();
-            //vinyl.name = "test";
-
-            //ConnectionFactory factory = new();
-            //factory.Uri = new Uri("amqps://rooqhdeb:wqZzav90erRV5x_N64xzfAnyKrviqnMR@rat.rmq2.cloudamqp.com/rooqhdeb");
-            //factory.ClientProvidedName = "VinylService";
-
-            //IConnection cnn = factory.CreateConnection();
-            //IModel channel = cnn.CreateModel();
-            //string exchangeName = "MyVinyl.com";
-            //string routingKey = "vinyl-routing-key";
-            //string queueName = "VinylQueue";
-
-
-
-            //channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
-            //channel.QueueDeclare(queueName, true, false, false, null);
-            //channel.QueueBind(queueName, exchangeName, routingKey, null);
-
-
-
-            //var json = JsonConvert.SerializeObject(Vinyl);
-            //var body = Encoding.UTF8.GetBytes(json);
-            //channel.BasicPublish(exchangeName, routingKey, null, body);
-            //_logger.LogInformation($"Message published to {queueName}");
-
-
-
-            //channel.Close();
-            //cnn.Close();
-
-
-
-            //return Ok(vinyl);
-        }
+    }
 
     [HttpGet]
     [Route("{id}")]

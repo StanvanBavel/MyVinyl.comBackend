@@ -114,3 +114,5 @@ D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com\obj\Debug\net6.
 D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com\bin\Debug\net6.0\Humanizer.dll
 D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com\bin\Debug\net6.0\System.Threading.Channels.dll
