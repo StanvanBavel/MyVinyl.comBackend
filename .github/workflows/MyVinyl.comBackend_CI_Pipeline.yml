@@ -71,6 +71,19 @@ jobs:
               dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
           - run: dotnet build MyVinyl.com
           - run: dotnet test MyVinyl.com
+          
+    Build_and_Test_Authenticationservice:
+        needs: [Sonarcloud]
+        runs-on: ubuntu-latest
+        name: AuthenticationService_Build&Test
+        steps:
+          - uses: actions/checkout@v2
+          - name: Setup dotnet
+            uses: actions/setup-dotnet@v1
+            with:
+              dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
+          - run: dotnet build MyVinyl.com_authentication_service
+          - run: dotnet test MyVinyl.com_authentication_service
       
 
     Docker_ApiGateway:
@@ -106,6 +119,7 @@ jobs:
     Docker_VinylService:
         needs: [Build_and_Test_Vinylservice]
         runs-on: ubuntu-latest
+        name: Docker_Publish VinylService
         defaults:
           run:
             working-directory: 'MyVinyl.com'
@@ -129,4 +143,33 @@ jobs:
             with:
               file: ./MyVinyl.com/Dockerfile
               push: true
-              tags: stanvb/myvinyl.com_vinyl_service:latest
+              tags: stanvb/myvinyl.com_vinyl_service:latest              
+              
+    Docker_AuthenticationService:
+        needs: [Build_and_Test_Authenticationservice]
+        runs-on: ubuntu-latest
+        name: Docker_Publish AuthenticationService
+        defaults:
+          run:
+            working-directory: 'MyVinyl.com_authentication_service'
+        steps:
+          -
+            name: Set up QEMU
+            uses: docker/setup-qemu-action@v1
+          -
+            name: Set up Docker Buildx
+            uses: docker/setup-buildx-action@v1
+          -
+            name: Login to DockerHub
+            uses: docker/login-action@v1 
+            with:
+              username: ${{ secrets.DOCKER_USERNAME }}
+              password: ${{ secrets.DOCKER_PASSWORD }}
+          -
+            name: Build and push
+            id: docker_build
+            uses: docker/build-push-action@v2
+            with:
+              file: ./MyVinyl.com_authentication_service/Dockerfile
+              push: true
+              tags: stanvb/myvinyl.com_authentication_service:latest
