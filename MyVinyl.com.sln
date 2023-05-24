@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com", "MyVinyl.com\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_ocelot_apigateway", "MyVinyl.com_ocelot_apigateway\MyVinyl.com_ocelot_apigateway.csproj", "{4D274F9E-02E9-454A-B86C-AC4D74985F32}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_identity_service", "MyVinyl.com_identity_service\MyVinyl.com_identity_service.csproj", "{493238EF-DEED-4BEF-9C5E-2C1CAD3925F5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_identity_service_Test", "MyVinyl.com_identity_service_Test\MyVinyl.com_identity_service_Test.csproj", "{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_rabbitmq", "MyVinyl.com_rabbitmq\MyVinyl.com_rabbitmq.csproj", "{74D9E925-1696-4D4D-B76F-43A4E7081B26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_collection_service", "MyVinyl.com_collection_service\MyVinyl.com_collection_service.csproj", "{54C6B492-1F5F-4E59-8DA6-CCF0EA5E1896}"
@@ -31,14 +27,6 @@ Global
 		{4D274F9E-02E9-454A-B86C-AC4D74985F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D274F9E-02E9-454A-B86C-AC4D74985F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D274F9E-02E9-454A-B86C-AC4D74985F32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{493238EF-DEED-4BEF-9C5E-2C1CAD3925F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{493238EF-DEED-4BEF-9C5E-2C1CAD3925F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{493238EF-DEED-4BEF-9C5E-2C1CAD3925F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{493238EF-DEED-4BEF-9C5E-2C1CAD3925F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD8F6C90-C22E-4A06-943D-ED3D32AD3B79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D9E925-1696-4D4D-B76F-43A4E7081B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
