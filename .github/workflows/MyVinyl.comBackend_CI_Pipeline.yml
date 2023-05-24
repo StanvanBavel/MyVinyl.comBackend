@@ -104,7 +104,7 @@ jobs:
           
           
     Docker_VinylService:
-        needs: [Sonarcloud, Build_and_Test_Vinylservice]
+        needs: [Build_and_Test_Vinylservice]
         runs-on: ubuntu-latest
         defaults:
           run:
