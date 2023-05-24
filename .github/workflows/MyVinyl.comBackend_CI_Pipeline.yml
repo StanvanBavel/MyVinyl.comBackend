@@ -60,6 +60,7 @@ jobs:
           - run: dotnet test MyVinyl.com_ocelot_apigateway
       
     Build_and_Test_Vinylservice:
+        needs: [Sonarcloud]
         runs-on: ubuntu-latest
         name: VinylService_Build&Test
         steps:
