@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpstreamPathTemplate": "/MyVinyl.com/WeatherForecast",
@@ -19,7 +19,7 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpStreamPathTemplate": "/api/vinyls",
@@ -31,7 +31,7 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpStreamPathTemplate": "/api/vinyls/{id}",
@@ -43,7 +43,7 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpStreamPathTemplate": "/api/vinyls/name/{names}",
