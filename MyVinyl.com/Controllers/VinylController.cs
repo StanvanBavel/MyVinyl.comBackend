@@ -2,6 +2,7 @@
 using MyVinyl.com.Database.Datamodels;
 using MyVinyl.com.Database.Datamodels.Dtos;
 using MyVinyl.com.Helpers;
+using MyVinyl.com.Logging;
 using MyVinyl.com.Services;
 using Newtonsoft.Json;
 using RabbitMQ.Client;
@@ -30,6 +31,9 @@ public class VinylController : Controller
     {
         try
         {
+            
+            logData data = new logData(request.Name, request.Description, request.Image);
+            await logData.LogToMicroserviceAsync(data, "https://localhost:7218/Logging/vinyl");
             return Ok(await _service.AddAsync(request));
         }
         catch (DuplicateException e)

@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_collection_serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVinyl.com_authentication_service", "MyVinyl.com_authentication_service\MyVinyl.com_authentication_service.csproj", "{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVinyl.com_logging", "MyVinyl.com_logging\MyVinyl.com_logging.csproj", "{3CE489FF-A2E1-478B-A839-3B253422E8BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D5E0C3-56FF-4CF9-ACD2-9870D0D44A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE489FF-A2E1-478B-A839-3B253422E8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE489FF-A2E1-478B-A839-3B253422E8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE489FF-A2E1-478B-A839-3B253422E8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE489FF-A2E1-478B-A839-3B253422E8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

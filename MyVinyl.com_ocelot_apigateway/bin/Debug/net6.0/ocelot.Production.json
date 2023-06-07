@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpstreamPathTemplate": "/MyVinyl.com/WeatherForecast",
@@ -19,10 +19,10 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
-      "UpStreamPathTemplate": "/api/vinyls",
+      "UpStreamPathTemplate": "/MyVinyl.com/api/vinyls",
       "UpStreamHttpMethod": [ "Get", "Put" ]
     },
     {
@@ -31,7 +31,7 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpStreamPathTemplate": "/api/vinyls/{id}",
@@ -43,10 +43,23 @@
       "DownStreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7286
+          "Port": 5194
         }
       ],
       "UpStreamPathTemplate": "/api/vinyls/name/{names}",
+      "UpStreamHttpMethod": [ "Get" ]
+    },
+    //AuthenticationService
+    {
+      "DownStreamPathTemplate": "/api/user/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5178
+        }
+      ],
+      "UpStreamPathTemplate": "/api/user/{id}",
       "UpStreamHttpMethod": [ "Get" ]
     }
 
