@@ -34,3 +34,11 @@ D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\obj\De
 D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\obj\Debug\net6.0\MyVinyl.com_rabbitmq.pdb
 D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\obj\Debug\net6.0\MyVinyl.com_rabbitmq.genruntimeconfig.cache
 D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\obj\Debug\net6.0\ref\MyVinyl.com_rabbitmq.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Humanizer.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\HBO-ICT Semester 6\Individueel\MyVinyl.comBackend\MyVinyl.com_rabbitmq\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
